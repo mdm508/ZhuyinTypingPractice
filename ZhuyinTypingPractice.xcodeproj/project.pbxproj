@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050DA375287E3BE0006F4999 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DA374287E3BE0006F4999 /* Symbol.swift */; };
+		050DA376287E3BE0006F4999 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DA374287E3BE0006F4999 /* Symbol.swift */; };
 		05FE3029287E197A0082E34D /* ZhuyinTypingPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE3028287E197A0082E34D /* ZhuyinTypingPracticeApp.swift */; };
 		05FE302B287E197A0082E34D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE302A287E197A0082E34D /* ContentView.swift */; };
 		05FE302D287E197D0082E34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FE302C287E197D0082E34D /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050DA374287E3BE0006F4999 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		05FE3025287E197A0082E34D /* ZhuyinTypingPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhuyinTypingPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FE3028287E197A0082E34D /* ZhuyinTypingPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinTypingPracticeApp.swift; sourceTree = "<group>"; };
 		05FE302A287E197A0082E34D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 			children = (
 				05FE3028287E197A0082E34D /* ZhuyinTypingPracticeApp.swift */,
 				05FE302A287E197A0082E34D /* ContentView.swift */,
+				050DA374287E3BE0006F4999 /* Symbol.swift */,
 				05FE302C287E197D0082E34D /* Assets.xcassets */,
 				05FE302E287E197D0082E34D /* Preview Content */,
 			);
@@ -259,6 +263,7 @@
 			files = (
 				05FE302B287E197A0082E34D /* ContentView.swift in Sources */,
 				05FE3029287E197A0082E34D /* ZhuyinTypingPracticeApp.swift in Sources */,
+				050DA375287E3BE0006F4999 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FE303A287E197E0082E34D /* ZhuyinTypingPracticeTests.swift in Sources */,
+				050DA376287E3BE0006F4999 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
