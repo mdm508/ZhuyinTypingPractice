@@ -7,24 +7,38 @@
 
 import Foundation
 
-struct Syllable {
-    private let syllable: String
+struct Syllable: Identifiable {
+    var id: UUID
+    let syllable: String
     //TODO: Make this type agree with type needed by Random generator
         /// Per million Chinese characters, how often does this symbol appear
     private let frequency: Double
+    
     init(_ syllable: String, frequency: Double){
+        id = UUID()
         self.syllable = syllable
         self.frequency = frequency
     }
 
 }
 
+struct Lesson {
+    let syllables: [Syllable]
+    var generatedText: [String] {
+        syllables.map{$0.syllable}.shuffled()
+    }
+    init(syllables: [Syllable]){
+        self.syllables = syllables
+    }
+    
+    
+}
 
 struct Zhuyin {
         /// The Zhuyin Symbol
     private let symbol: String
         /// List of syllables that start with symbol
-    private var syllables: [Syllable]
+    let syllables: [Syllable]
     init(_ symbol: String, _ syllables: [Syllable]){
         self.symbol = symbol
         self.syllables = syllables

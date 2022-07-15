@@ -11,7 +11,7 @@ import SwiftUI
 struct ZhuyinTypingPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LessonView(lesson: Lesson(syllables: b.syllables))
         }
     }
 }
