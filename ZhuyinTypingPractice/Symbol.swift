@@ -22,18 +22,6 @@ struct Syllable: Identifiable {
 
 }
 
-struct Lesson {
-    let syllables: [Syllable]
-    var generatedText: [String] {
-        syllables.map{$0.syllable}.shuffled()
-    }
-    init(syllables: [Syllable]){
-        self.syllables = syllables
-    }
-    
-    
-}
-
 struct Zhuyin {
         /// The Zhuyin Symbol
     private let symbol: String
