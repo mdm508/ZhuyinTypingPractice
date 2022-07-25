@@ -36,7 +36,7 @@ struct Zhuyin {
 let b = Zhuyin("ㄅ", [
     Syllable("ㄅㄚ",frequency: 2359),
     Syllable("ㄅㄛ", frequency: 1429),
-    Syllable("ㄅㄞ ", frequency: 1128),
+    Syllable("ㄅㄞ", frequency: 1128),
     Syllable("ㄅㄟ", frequency: 4395),
     Syllable("ㄅㄠ", frequency: 4966),
     Syllable("ㄅㄢ", frequency: 4279),
